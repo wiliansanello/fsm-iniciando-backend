@@ -1,0 +1,23 @@
+{
+  "name": "proj-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "find ./ -name '*.test.js' | xargs ./node_modules/.bin/mocha --reporter spec",
+    "test2": "./node_modules./bin/mocha --reporter spec **/*.test.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "jsdom-global": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0"
+  }
+}
